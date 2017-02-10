@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		491BDFC51E4AC1A9001E8FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */; };
-		491BDFC71E4AC1A9001E8FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFC61E4AC1A9001E8FC8 /* ViewController.swift */; };
 		491BDFCA1E4AC1A9001E8FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491BDFC81E4AC1A9001E8FC8 /* Main.storyboard */; };
 		491BDFCC1E4AC1A9001E8FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491BDFCB1E4AC1A9001E8FC8 /* Assets.xcassets */; };
 		491BDFCF1E4AC1A9001E8FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491BDFCD1E4AC1A9001E8FC8 /* LaunchScreen.storyboard */; };
 		491BDFDA1E4AC1A9001E8FC8 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFD91E4AC1A9001E8FC8 /* WorldTrotterTests.swift */; };
 		491BDFE51E4AC1A9001E8FC8 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFE41E4AC1A9001E8FC8 /* WorldTrotterUITests.swift */; };
+		491BDFF31E4BCE2B001E8FC8 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFF21E4BCE2B001E8FC8 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		491BDFC11E4AC1A9001E8FC8 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		491BDFC61E4AC1A9001E8FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		491BDFC91E4AC1A9001E8FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491BDFCB1E4AC1A9001E8FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491BDFCE1E4AC1A9001E8FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		491BDFE01E4AC1A9001E8FC8 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491BDFE41E4AC1A9001E8FC8 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		491BDFE61E4AC1A9001E8FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491BDFF21E4BCE2B001E8FC8 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewController.swift; path = ../ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */,
-				491BDFC61E4AC1A9001E8FC8 /* ViewController.swift */,
+				491BDFF21E4BCE2B001E8FC8 /* ConversionViewController.swift */,
 				491BDFC81E4AC1A9001E8FC8 /* Main.storyboard */,
 				491BDFCB1E4AC1A9001E8FC8 /* Assets.xcassets */,
 				491BDFCD1E4AC1A9001E8FC8 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491BDFC71E4AC1A9001E8FC8 /* ViewController.swift in Sources */,
+				491BDFF31E4BCE2B001E8FC8 /* ConversionViewController.swift in Sources */,
 				491BDFC51E4AC1A9001E8FC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
