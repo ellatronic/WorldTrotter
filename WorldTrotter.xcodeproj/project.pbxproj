@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491AAFF31E4E713300683A6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491AAFF21E4E713300683A6F /* MapKit.framework */; };
+		491AAFF51E4E757B00683A6F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AAFF41E4E757B00683A6F /* MapViewController.swift */; };
 		491BDFC51E4AC1A9001E8FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */; };
 		491BDFCA1E4AC1A9001E8FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491BDFC81E4AC1A9001E8FC8 /* Main.storyboard */; };
 		491BDFCC1E4AC1A9001E8FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491BDFCB1E4AC1A9001E8FC8 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		491AAFF21E4E713300683A6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		491AAFF41E4E757B00683A6F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		491BDFC11E4AC1A9001E8FC8 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491BDFC91E4AC1A9001E8FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491AAFF31E4E713300683A6F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491AAFF11E4E713300683A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				491AAFF21E4E713300683A6F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		491BDFB81E4AC1A9001E8FC8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 				491BDFD81E4AC1A9001E8FC8 /* WorldTrotterTests */,
 				491BDFE31E4AC1A9001E8FC8 /* WorldTrotterUITests */,
 				491BDFC21E4AC1A9001E8FC8 /* Products */,
+				491AAFF11E4E713300683A6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,7 @@
 			children = (
 				491BDFC41E4AC1A9001E8FC8 /* AppDelegate.swift */,
 				491BDFF21E4BCE2B001E8FC8 /* ConversionViewController.swift */,
+				491AAFF41E4E757B00683A6F /* MapViewController.swift */,
 				491BDFC81E4AC1A9001E8FC8 /* Main.storyboard */,
 				491BDFCB1E4AC1A9001E8FC8 /* Assets.xcassets */,
 				491BDFCD1E4AC1A9001E8FC8 /* LaunchScreen.storyboard */,
@@ -263,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491BDFF31E4BCE2B001E8FC8 /* ConversionViewController.swift in Sources */,
+				491AAFF51E4E757B00683A6F /* MapViewController.swift in Sources */,
 				491BDFC51E4AC1A9001E8FC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +530,7 @@
 				491BDFEB1E4AC1A9001E8FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491BDFEC1E4AC1A9001E8FC8 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				491BDFEE1E4AC1A9001E8FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491BDFEF1E4AC1A9001E8FC8 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				491BDFF11E4AC1A9001E8FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
