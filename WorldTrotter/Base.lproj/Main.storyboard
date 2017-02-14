@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,25 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opf-QS-hm4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opf-QS-hm4">
                                 <rect key="frame" x="35" y="120" width="306" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFa-g4-7IA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFa-g4-7IA">
                                 <rect key="frame" x="129" y="171" width="119" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbf-22-jzs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbf-22-jzs">
                                 <rect key="frame" x="130" y="222" width="117" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjQ-Xd-lOW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjQ-Xd-lOW">
                                 <rect key="frame" x="61" y="314" width="254" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,7 +64,9 @@
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="YFa-g4-7IA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0gz-BX-Wud"/>
                             <constraint firstItem="XDZ-kD-jMP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2QE-1Z-Z50"/>
+                            <constraint firstItem="kjQ-Xd-lOW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="57x-rJ-BJn"/>
                             <constraint firstItem="YFa-g4-7IA" firstAttribute="top" secondItem="opf-QS-hm4" secondAttribute="bottom" constant="8" id="5Nt-2E-AX0"/>
                             <constraint firstItem="opf-QS-hm4" firstAttribute="top" secondItem="XDZ-kD-jMP" secondAttribute="bottom" constant="8" id="5yO-bp-YKG"/>
                             <constraint firstItem="kjQ-Xd-lOW" firstAttribute="centerX" secondItem="opf-QS-hm4" secondAttribute="centerX" id="65C-Xs-TmV"/>
@@ -72,10 +75,18 @@
                             <constraint firstItem="opf-QS-hm4" firstAttribute="centerX" secondItem="XDZ-kD-jMP" secondAttribute="centerX" id="Hxw-Gu-3BG"/>
                             <constraint firstItem="gbf-22-jzs" firstAttribute="top" secondItem="YFa-g4-7IA" secondAttribute="bottom" constant="8" id="IDz-ZI-Iwm"/>
                             <constraint firstItem="XDZ-kD-jMP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="JNb-Uj-lfH"/>
+                            <constraint firstItem="XDZ-kD-jMP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PXb-bz-maj"/>
                             <constraint firstItem="YFa-g4-7IA" firstAttribute="centerX" secondItem="opf-QS-hm4" secondAttribute="centerX" id="VWi-zC-66d"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="YFa-g4-7IA" secondAttribute="trailing" id="WXu-Km-T8Q"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="kjQ-Xd-lOW" secondAttribute="trailing" id="Xjw-9f-94H"/>
                             <constraint firstItem="XDZ-kD-jMP" firstAttribute="centerX" secondItem="opf-QS-hm4" secondAttribute="centerX" id="YSx-7W-4gh"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="gbf-22-jzs" secondAttribute="trailing" id="a1j-6r-r5f"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="opf-QS-hm4" secondAttribute="trailing" id="dr9-k6-Q7z"/>
                             <constraint firstItem="XDZ-kD-jMP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ehB-ep-FO0"/>
+                            <constraint firstItem="opf-QS-hm4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="izW-Xq-53I"/>
                             <constraint firstItem="opf-QS-hm4" firstAttribute="top" secondItem="XDZ-kD-jMP" secondAttribute="bottom" constant="8" id="kyp-ZO-DiV"/>
+                            <constraint firstItem="gbf-22-jzs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oZX-d9-9wV"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="XDZ-kD-jMP" secondAttribute="trailing" id="wcZ-pL-EPi"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Mb5-QG-wZ6" appends="YES" id="wpI-rN-fbL"/>
@@ -99,10 +110,10 @@
         <!--Map-->
         <scene sceneID="Wgh-AD-D10">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZK-NB-MY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ymr-rr-tNl" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="I1K-FC-9re"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZK-NB-MY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1598" y="778"/>
         </scene>
@@ -112,6 +123,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wPr-OJ-DoB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="8S1-5l-aL9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
